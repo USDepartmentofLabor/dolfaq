@@ -1,0 +1,12 @@
+== DOL FAQ v2
+
+This is a re-written version (v2) of the U.S. Department of Labor Frequently Asked
+Questions webapp.  This version has been rewritten using the Ruby on Rails framework,
+to be deployed as a Linux webapp.
+
+
+The old, Version 1 (written in .NET) can be found at the 
+[v1.0_dotnet branch](https://gitlabdev.opadev.dol.gov/opatechteamdev/dolfaq/tree/v1.0_dotnet). 
+The master branch contains the rails v2.
+
+

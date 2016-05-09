@@ -1,0 +1,15 @@
+<%= title "#{@topic} - " %>
+<h2><%= @topic %></h2>
+<h3>Subtopics include:</h3>
+<ul>
+	<% @subtopics.each do |i, t| %>
+		<li><%= link_to t, subtopic_path(i) %></li>
+	<% end %>
+</ul>
+
+<h3>Questions:</h3>
+<ul>
+	<% @questions.each do |i, q| %>
+		<li><%= link_to q, faq_path(i) %></li>
+	<% end %>
+</ul>

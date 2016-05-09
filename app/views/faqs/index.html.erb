@@ -1,0 +1,8 @@
+<p>Find answers to questions on various labor topics by selecting a category below. The Federal Register
+	 and the Code of Federal Regulations are the official source for regulatory information published by DOL.</p>
+<h2>By Topic</h2>
+<ul>
+	<% @topics.each do |i, t| %>
+		<li><%= link_to t, topic_path(i) %></li>
+	<% end %>
+</ul>

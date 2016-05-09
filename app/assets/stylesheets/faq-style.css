@@ -1,0 +1,13 @@
+a:hover, a:focus, a:active { text-decoration: underline;}
+
+.mainsearch label {
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 1.3em;
+  font-weight:bold;
+}
+
+.mainsearch input {
+  font-family: Open Sans;
+  font-size: 0.9em;
+}

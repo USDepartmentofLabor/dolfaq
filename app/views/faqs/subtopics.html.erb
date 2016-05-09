@@ -1,0 +1,8 @@
+<%= title "#{@topic} - " %>
+<h2><%= @topic %> - <%= @subtopic %></h2>
+<h3>Questions:</h3>
+<ul>
+	<% @questions.each do |i, q| %>
+		<li><%= link_to q, faq_path(i) %></li>
+	<% end %>
+</ul>

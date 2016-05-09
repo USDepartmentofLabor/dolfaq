@@ -1,0 +1,12 @@
+<%= title "Search: #{params[:faqquery]} - " %>
+<% if @searchResults.any? %>
+	<h3>Results:</h3>
+	<ul>
+		<% @searchResults.each do |s| %>
+			<li><%= link_to s.question, faq_path(s.id) %></li>
+		<% end %>
+	</ul>
+<% else %>
+	No search results found for <strong><%= params[:faqquery] %></strong>
+	<br /><br />
+<% end %>
