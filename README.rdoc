@@ -5,8 +5,6 @@ Questions webapp.  This version has been rewritten using the Ruby on Rails frame
 to be deployed as a Linux webapp.
 
 
-The old, Version 1 (written in .NET) can be found at the 
-[v1.0_dotnet branch](https://gitlabdev.opadev.dol.gov/opatechteamdev/dolfaq/tree/v1.0_dotnet). 
 The master branch contains the rails v2.
 
 
